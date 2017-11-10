@@ -1,0 +1,32 @@
+.jumbotron {
+    background-color: navy;
+    color: white;
+    text-align: center;
+
+}
+
+#headStyle {
+    color: white;
+    background-color: navy;
+
+}
+
+
+
+#articleStyle {
+    color: white;
+    background-color: navy;
+
+}
+
+#submit {
+    background-color: grey;
+    color: white;
+
+}
+
+#clearResults {
+    background-color: lightgrey;
+    color: white;
+
+}
