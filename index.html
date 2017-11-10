@@ -2,12 +2,12 @@
 <html>
 
 <head>
-    <meta="UTF-8">
+    <meta charset="UTF-8">
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link style="text/style" src="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>New York Times Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+
+    <title>New York Times Search</title>
 
 
 </head>
@@ -16,7 +16,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12">
-                <div class="jumbotron" style="text-align: center">
+                <div class="jumbotron">
                     <h1><span class="glyphicon glyphicon-search" aria-hidden="true"></span> New York Times Search</h1>
                 </div>
             </div>
@@ -24,8 +24,8 @@
     </div>
 
     <div class="panel panel-default">
-        <div class="panel-heading">Search Parameters</div>
-        <div class="panel-body">
+        <div class="panel-heading" id="headStyle">Search Parameters</div>
+        <div class="panel-body" id="searchStyle">
             <div class="row">
                 <div class="col-xs-12">
                     <div class="input-group">
@@ -78,7 +78,7 @@
 
     <!--Article Section-->
     <div class="panel panel-default">
-        <div class="panel-heading">
+        <div class="panel-heading" id="articleStyle">
             <h3 class="panel-title">Article Results:</h3>
         </div>
         <div class="panel-body">
