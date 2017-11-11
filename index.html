@@ -37,16 +37,13 @@
 
             <hr>
 
-            <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Number of Articles
-                <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a id="one">1</a></li>
-                    <li><a id="five">5</a></li>
-                    <li><a id="ten">10</a></li>
-                </ul>
+            <div class="form-group">
+                <label for="se1">Number of Records to Retrieve:</label>
+                <select class="form-control" id="sel1">
+                    <option value="1">1</option>
+                    <option value="5 selected">5</option>
+                    <option value="10">10</option>
+                </select>
             </div>
 
             <hr>
@@ -83,6 +80,13 @@
         </div>
         <div class="panel-body">
             <div id="resultArticles">
+                <div class="well">
+                    <h2>Title</h2>
+                    <h3>Author</h3>
+                    <h4>Section</h4>
+                    <h4>Date</h4>
+                    <h4>link</h4>
+                </div>
 
             </div>
         </div>
